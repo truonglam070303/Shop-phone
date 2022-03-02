@@ -1,0 +1,244 @@
+/* pc */
+
+@media only screen and (min-width: 1024px) {
+    .product__header{
+        height: 25rem;
+    }
+}
+
+/* tablet */
+
+@media only screen and  (min-width:740px) and (max-width: 1023px) {
+        /* glide */
+        .hero__center {
+            padding-top: 8rem;
+        }
+        
+        .hero__left {
+            padding: 0;
+            flex: 0 0 36%;
+        }
+
+        
+
+        .hero__right--container {
+            width: 60%;
+            margin: auto;
+        }
+
+        .product__header {
+            height: 25rem;
+        }
+        .product__header img {
+            max-width: 100%;
+            min-height: 100%;
+        }
+}
+
+/* mobile */
+
+@media only screen and  (max-width:739px) {
+    .nav__icons {
+        margin-right: 1rem;
+    }
+    .nav__icons .nav__icon-swap {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .hero__center {
+        padding-top: 0;
+    }
+
+    .hero__left {
+        padding: 0;
+        margin: 0 2rem;
+    }
+
+    .hero__left h1 {
+        text-align: center;
+    }
+
+    .hero__right--container {
+        display: none;
+        justify-content: space-around;
+    }
+
+    .img__container{
+        width: 40%;
+    }
+
+    .collection__box {
+        max-width: 30rem;
+    }
+    
+    .collection__data h1 {
+        font-size: 2rem;
+    }
+
+    .collection__data span {
+        font-size: 1.4rem;
+    }
+    .collection__data a {
+        padding: .2rem 1.2rem;
+        border-radius: 2rem;
+    }
+
+
+    /* product */
+    .product__header {
+        height: 10rem;
+    }
+    .product__header img {
+        width: 40%;
+    }
+
+    .product__name {
+        font-size: 1.3rem;
+    }
+
+    .product__rating {
+        font-size: 1.1rem;
+    }
+
+    .product__price h4{
+        font-size: 1.3rem;
+    }
+
+    .product__btn {
+        width: 80%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .9rem 0;
+    }
+
+    .product__utilities {
+        top: 18%;
+        width: 13rem;
+        height: 4rem;
+    }
+
+    .product__utilitie--icon {
+        padding: .5rem;
+    }
+
+    .product__utilitie--link i {
+        font-size: 1.6rem;
+    }
+    /* facility section  */
+    .facility__item--icon {
+        width: 70px;
+        height: 70px;
+    }
+    .facility__item--tilte {
+        font-size: 1.7rem;
+    }
+
+    /* newslatter */
+
+    /* .newsletter__content {
+        min-width:90px;
+        margin: auto;
+    } */
+    .testimonial__box p{
+        font-size: 1.2rem
+    }
+
+    .newslatter__data h3 {
+        font-size: 1.7rem;
+        word-wrap: normal;
+        text-align: center;
+    }
+
+    .newslatter__data p {
+        word-wrap: normal;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    
+}
+/* end mobile */
+
+/* mobile and tablet */
+
+@media only screen and  (max-width:1023px) {
+    .nav__hamburger {
+        display: block;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__logo {
+        margin-left: 0;
+    }
+
+
+    .nav__icon-swap i {
+        font-size: 1rem;
+    }
+
+
+    .hero__center {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero__left--title,
+    .hero__left p {
+        text-align:center;
+    }
+    .hero__left .hero__btn {
+            margin: 0 auto;
+    }
+
+    .glide__arrow {
+        display: none;
+    }
+
+    .collection__container {
+        flex-direction: column;
+    }
+
+    .collection__box {
+    }
+
+    .collection__box:first-child,
+    .collection__box:last-child {
+        margin: 1rem;
+    }
+
+
+    /* news latter */
+    .container__newsletter {
+        display: flex;
+    }
+    .newsletter__content {
+        display: block;
+        margin: 0 auto;
+    }
+    .newslatter__data p {
+        margin-bottom: 1.8rem;
+    }
+
+    .newsletter__content form {
+        display:block;
+    }
+    .newsletter__content form input {
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    
+    .newsletter__content form a {
+        display: block;
+        width: 13rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer {
+        padding: 8rem 6rem;
+    }
+}
